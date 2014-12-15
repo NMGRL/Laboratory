@@ -8,7 +8,6 @@ Various Lab procedures are explained below.
    :maxdepth: 2
    
    co2_loading
-   
-..   calibration
-..   co2_diagnostics
+   calibration
+   co2_diagnostics
    

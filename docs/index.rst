@@ -19,15 +19,13 @@ Welcome to the New Mexico Geochronology Research Laboratory!
 .. toctree::
    :maxdepth: 1
    
-   user_guide/index
    lab_procedures_guide
-   reference_values_index
+   reference_values
    extraction_line
    software_layout
    bibliographies
    computer_names
-   database
-   
+
    
 Indices and tables
 ==================
