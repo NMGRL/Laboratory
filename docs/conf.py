@@ -17,7 +17,7 @@ import sys, os
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 sys.path.insert(0, os.path.abspath('.'))
-
+sys.path.insert(0, os.path.join(os.path.abspath('.'), 'exts'))
 
 # add pychron path for autodocs.
 # version = 'diode'
@@ -32,7 +32,7 @@ sys.path.insert(0, os.path.abspath('.'))
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinx.ext.autodoc','numfig']
+extensions = ['sphinx.ext.autodoc', 'numfig']
 
 # numfig:
 numfig_number_figures = True
@@ -181,21 +181,21 @@ htmlhelp_basename = 'Pychrondoc'
 # -- Options for LaTeX output --------------------------------------------------
 
 latex_elements = {
-# The paper size ('letterpaper' or 'a4paper').
-# 'papersize': 'letterpaper',
+    # The paper size ('letterpaper' or 'a4paper').
+    # 'papersize': 'letterpaper',
 
-# The font size ('10pt', '11pt' or '12pt').
-# 'pointsize': '10pt',
+    # The font size ('10pt', '11pt' or '12pt').
+    # 'pointsize': '10pt',
 
-# Additional stuff for the LaTeX preamble.
-# 'preamble': '',
+    # Additional stuff for the LaTeX preamble.
+    # 'preamble': '',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'Pychron.tex', u'Pychron Documentation',
-   u'Jake Ross', 'manual'),
+    ('index', 'Pychron.tex', u'Pychron Documentation',
+     u'Jake Ross', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -236,11 +236,11 @@ man_pages = [
 
 # Grouping the document tree into Texinfo files. List of tuples
 # (source start file, target name, title, author,
-#  dir menu entry, description, category)
+# dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'Pychron', u'Pychron Documentation',
-   u'Jake Ross', 'Pychron', 'One line description of project.',
-   'Miscellaneous'),
+    ('index', 'Pychron', u'Pychron Documentation',
+     u'Jake Ross', 'Pychron', 'One line description of project.',
+     'Miscellaneous'),
 ]
 
 # Documents to append as an appendix to all manuals.
