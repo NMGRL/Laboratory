@@ -8,25 +8,26 @@ Welcome to the New Mexico Geochronology Research Laboratory!
 .. image:: images/NMGRL_logo.png
    :scale: 33%
    :width: 50%
-   
+
 .. image:: images/RossLabs_logo.png
    :width: 33%
    :scale: 70%
-   
+
 .. image:: images/NMT_logo.png
    :width: 33%
 
 .. toctree::
    :maxdepth: 1
-   
+
    lab_procedures_guide
    reference_values
    extraction_line
    software_layout
    bibliographies
    computer_names
+   lab_meetings/index
 
-   
+
 Indices and tables
 ==================
 
