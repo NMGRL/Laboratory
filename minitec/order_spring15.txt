@@ -1,9 +1,10 @@
 Cable management
 
-Item                                       Qty
-22.1210 Cable Clip 45                      20 
-22.1204 Cable Clip                         20
+Item                                         Qty
+22.1210   Cable Clip 45                      20 
+22.1204   Cable Clip                         20
 
 
 Linear Guides
-28.0192 Slide LWN 32x45-45                 4
+28.0192   Slide LWN 32x45-45                 3
+28.0192/2 Slide LWN 32x45-45 With Side Lock  1
