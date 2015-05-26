@@ -33,14 +33,17 @@ If a connection is made you will be prompted for a ``username`` and ``password``
 =============== ============ ============== ================== =====================
 Computer        Username     Address        short address      Task
 =============== ============ ============== ================== =====================
-Pychron mini    pychron      129.138.12.153 pychron.local      Extraction Line, CO2
-Obama iMac      obama        129.138.12.136 obama.local        Mass Spec Master
-Jan iMac        jan          129.138.12.150 jan.local          Mass Spec Master
-Diode mini      diode        129.138.12.134 diode.local        Diode
-UV mini         uv           129.138.12.132 uv.local           UV
-ArgonLab1 iMac  argonlab1    129.138.12.138 argonlab1.local    Lab computer
-ArgonLab2 iMac  argonlab2    129.138.12.143 argonlab2.local    Lab computer
-Replicator iMac dbreplicator 129.138.12.157 dbreplicator.local Databse replication
+Pychron mini    pychron      153            pychron.local      Extraction Line
+Obama iMac      obama        136            obama.local        Pychron Master
+Jan iMac        jan          150            jan.local          Pychron Master
+Diode mini      diode        134            diode.local        Diode
+UV mini         uv           132            uv.local           UV
+CO2 mini        argonlab3    133            co2.local          CO2, Bakeout
+ArgonLab1 iMac  argonlab1    138            argonlab1.local    Lab computer
+ArgonLab2 iMac  argonlab2    143            argonlab2.local    Lab computer
+Replicator mini argonlab4    158            argonlab4.local    Databse replication
+--------------- ------------ 155            ------------------ Environmental Monitor
+--------------- ------------ 157            ------------------ USB server
 =============== ============ ============== ================== =====================
 
 -------------
@@ -49,8 +52,8 @@ Windows
 ============= ======== ============== =============
 Computer      Username Address        Task
 ============= ======== ============== =============
-ObamaArgus    Thermo   129.138.12.145 Qtegra
-JanArgus      Thermo   129.138.12.152 Qtegra
+ObamaArgus    Thermo   145            Qtegra
+JanArgus      Thermo   152            Qtegra
 ============= ======== ============== =============
 
 To connect to a Windows computer using a remote desktop client such as `TightVNC <http://www.tightvnc.com>`_ 
