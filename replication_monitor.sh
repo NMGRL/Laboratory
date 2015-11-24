@@ -12,7 +12,9 @@ error=$(awk '/Slave_SQL_Running: No|Slave_IO_Running: No/' status.txt)
 if [ -n "$error" ]; then
   if [ $SEND_EMAIL_ON_FAILURE = "YES" ]; then
     echo $MESSAGE\n$error | mail -s "MYSQL Replication Problem"  $ADDRESS_TO_NOTIFY
+    echo $(date) Replication Failing\n$error >> repl_monitor.log
   fi
 fi
 
 rm status.txt
+echo $(date) Checked Replication >> repl_monitor.log
