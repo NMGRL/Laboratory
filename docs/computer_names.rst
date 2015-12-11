@@ -5,9 +5,9 @@ Computer Names
 ------------
 Mac
 ------------
-To connect from a Mac use the Finder, *Go > Connect To Server...* (|cmd|-K)
+To connect from a Mac use the Finder, *Go > Connect To Server...* (cmd-K_)
 
-.. |cmd| CMD 
+.. _cmd-K:
 
 Enter the address of the computer you 
 would like to connect to. 
