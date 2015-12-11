@@ -34,14 +34,14 @@ If a connection is made you will be prompted for a ``username`` and ``password``
 Computer        Username     Address        short address      Task
 =============== ============ ============== ================== =====================
 Pychron mini    pychron      153            pychron.local      Extraction Line
-Obama iMac      obama        136            obama.local        Pychron Master
+Obama iMac      obama        137            obama.local        Pychron Master
 Jan iMac        jan          150            jan.local          Pychron Master
 Diode mini      diode        134            diode.local        Diode
 UV mini         uv           132            uv.local           UV
-CO2 mini        argonlab3    133            co2.local          CO2, Bakeout
+CO2 mini        argonlab3    133            co2.local          CO2
 ArgonLab1 iMac  argonlab1    138            argonlab1.local    Lab computer
 ArgonLab2 iMac  argonlab2    143            argonlab2.local    Lab computer
-Replicator mini argonlab4    158            argonlab4.local    Databse replication
+Argonlab4 mini  argonlab4    158            argonlab4.local    Database replication, Bakeout
 --------------- ------------ 155            ------------------ Environmental Monitor
 --------------- ------------ 157            ------------------ USB server
 =============== ============ ============== ================== =====================
