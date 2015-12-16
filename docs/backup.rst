@@ -7,6 +7,7 @@ Backup Locations
 ----------------------
 In general lab computers are backed up to Backups and users computers are backed up to Backups-1.
 
+=================== ============
 Computer            Backup Drive
 =================== ============
 pychron             Backups
@@ -14,6 +15,7 @@ jan                 Backups
 obama               Backups
 argonlab4/bakeout   Backups
 foobot              Backups-1
+=================== ============
 
 .. note:: The drive names are Backups==backups1 and Backups-1==backups2
 
