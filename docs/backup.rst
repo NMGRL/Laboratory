@@ -13,14 +13,22 @@ Computer            Backup Drive
 pychron             Backups
 jan                 Backups
 obama               Backups
-argonlab4/bakeout   Backups
+co2                 Backups
+diode               Backups
+argonlab4/bakeout   Backups-2
 foobot              Backups-1
 =================== ============
 
-.. note:: The drive names are Backups==backups1 and Backups-1==backups2
+=================== ================
+Backup Location     Harddrive
+=================== ================
+Backups             backups1
+Backups-1           backups2
+Backups-2           backups4
+=================== ================
 
 Server Backup
 ---------------------
 ArgonServer3 is backed up to an external HDD (backups3) using Time Machine.
 ArgonServer2 is not backed up. It only is running the MySQL database Server. The databases are replicated to
-argonlab4/Bakeout and this computer is backed up.
+argonlab4/bakeout and this computer is backed up.
