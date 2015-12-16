@@ -8,8 +8,10 @@
 #########################################
 
 #Set these
+USER=
+PWD=
 BACKUP_DIR=$HOME/backups
-BACKUP_COMMAND="/usr/local/mysql/bin/mysqldump --user=root --password=DBArgon pychrondata"
+BACKUP_COMMAND="/usr/local/mysql/bin/mysqldump --user=$USER --password=$PWD pychrondata"
 BACKUP_LOG_DIR=$BACKUP_DIR/log
 BACKUP_LOG_FILE="current.log"
 SEND_EMAIL_ON_FAILURE="YES" # use YES or NO

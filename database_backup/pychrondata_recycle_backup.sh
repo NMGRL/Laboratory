@@ -9,11 +9,11 @@
 
 #Set these
 BACKUP_DIR=$HOME/backups
-BACKUP_COMMAND="/usr/local/mysql/bin/mysqldump --user=root --password=DBArgon pychrondata"
+BACKUP_COMMAND="/usr/local/mysql/bin/mysqldump --user=$USER --password=$PWD pychrondata"
 BACKUP_LOG_DIR=$BACKUP_DIR/log
 BACKUP_LOG_FILE="recycle.log"
 SEND_EMAIL_ON_FAILURE="YES" # use YES or NO
-ADDRESS_TO_NOTIFY="jirhiker@gmail.com"
+ADDRESS_TO_NOTIFY=
 MESSAGE="There was a failure in the mass spec DB backup.  Check the logs!"
 #------------------------------
 
