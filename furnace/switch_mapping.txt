@@ -1,0 +1,17 @@
+CH	Component
+1	rough turbo
+2	getter
+3	rough
+4	furnace turbo
+5	lower shutter
+6	upper shutter
+7	gate
+8	
+9	Magnet1
+10	Magnet2
+11	Magnet3
+12	
+13	
+14	
+15	
+16	
