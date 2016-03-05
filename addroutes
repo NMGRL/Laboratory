@@ -1,0 +1,7 @@
+#! /bin/sh
+echo "Setting static route for private network"
+t=$(date)
+echo "Delay 1m from now " $t
+sleep 60 && /sbin/route -n add 192.168.2.0/24 129.138.12.131
+t=$(date)
+echo "Exiting /scripts/addroutes " $t
