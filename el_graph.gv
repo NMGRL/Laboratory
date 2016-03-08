@@ -1,0 +1,94 @@
+graph G {node [shape=square]
+edge [penwidth=3]
+splines=ortho
+Bone [shape=rect]
+Minibone [shape=rect]
+Microbone [shape=rect]
+
+Obama
+GP50
+
+ATurbo [shape=hexagon]
+RTurbo [shape=hexagon color=red]
+BTurbo [shape=hexagon]
+FRTurbo [shape=hexagon color=red]
+
+Diode [shape=circle]
+CO2 [shape=circle]
+
+ADiode [shape=ellipse]
+RDiode [shape=ellipse]
+G [shape=triangle]
+FR [shape=triangle]
+RGP50 [shape=ellipse]
+RD50 [shape=ellipse]
+RMinibone [shape=ellipse]
+RFGP50 [shape=ellipse]
+RAP10 [shape=ellipse]
+
+AP10 [shape=octagon]
+GP50 [shape=octagon]
+FGP50 [shape=octagon]
+D50 [shape=octagon]
+
+Cocktail [shape=circle]
+Air [shape=circle]
+
+Bone -- H
+Bone -- C
+Bone -- J
+Bone -- B
+Bone -- N
+Bone -- E
+Bone -- D
+
+H -- Obama
+E -- I
+Minibone -- I
+Minibone -- P
+Minibone -- W
+Minibone -- Y
+Minibone -- Q
+Q -- Quad
+
+C -- ATurbo
+P -- ATurbo
+B -- ADiode
+ADiode -- Diode
+
+N -- GP50
+D -- F
+F -- CO2
+
+CO2 -- A
+A -- T
+Microbone -- T
+
+Cocktail -- X
+X -- W
+Air -- Z
+Z -- Y
+Microbone -- L
+Microbone -- U
+Microbone -- R
+Microbone -- K
+Microbone -- M
+K -- D50
+M -- AP10
+U -- BTurbo
+L -- Minibone
+R -- S
+S -- Jan
+
+AP10 -- RAP10 -- RTurbo [color=red]
+CO2 -- G -- RTurbo [color=red]
+Diode -- RDiode -- RTurbo [color=red]
+GP50 -- RGP50 -- RTurbo [color=red]
+D50 -- RD50 -- RTurbo [color=red]
+Minibone -- RMinibone -- RTurbo [color=red]
+
+J -- Furnace
+Furnace -- FG -- FGP50
+Furnace -- FR -- FRTurbo
+FGP50 -- RFGP50 -- FRTurbo [color=red]
+}
