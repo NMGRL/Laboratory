@@ -6,8 +6,9 @@ BACKUP_PATH=/data/backups/
 USER=
 PASSWORD=
 BASE=${BACKUP_PATH}/base
-INCREMENTAL=0
+INCREMENTAL=1
 DO_BASE=0
+DATABASES=./databases
 #==============================================
 
 echo =========================================
@@ -15,7 +16,7 @@ echo Running Percona XtraBackup
 echo =========================================
 
 AUTH=--user=${USER} --password=${PASSWORD}
-OPTS=${AUTH} --databases=./databases
+OPTS=${AUTH} --databases=${DATABASES}
 
 if [${INCREMENTAL}==1]; then
    echo Making incremental backup based on ${BASE}
