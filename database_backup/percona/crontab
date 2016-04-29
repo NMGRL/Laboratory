@@ -1,0 +1,2 @@
+0 */12 * * * run_incremental_backup_every12hrs > log_to_this_file
+0 9    * * 0 run_prune_at9_every_sunday > log_to_this_file
