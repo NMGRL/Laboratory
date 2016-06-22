@@ -34,14 +34,14 @@ echo =========================================
 if [[ ${INCREMENTAL} == "1" ]]; then
    echo Making incremental backup based on ${BASE}
    innobackupex ${BACKUP_PATH}/inc --incremental-basedir=${BASE} --incremental \
-                --user=${USER} --password=${PASSWORD} --databases="${DATABASES}" 2>$1
+                --user=${USER} --password=${PASSWORD} --databases="${DATABASES}" 2>&1
 
 elif [[ ${DO_BASE} == "1" ]]; then
    echo Making Base Backup
    innobackupex ${BACKUP_PATH}/base --no-timestamp \
-                --user=${USER} --password=${PASSWORD} --databases="${DATABASES}" 2>$1
+                --user=${USER} --password=${PASSWORD} --databases="${DATABASES}" 2>&1
 else
    echo Making Full Timestamped Backup
    innobackupex ${BACKUP_PATH} \
-                --user=${USER} --password=${PASSWORD} --databases="${DATABASES}" 2>$1
+                --user=${USER} --password=${PASSWORD} --databases="${DATABASES}" 2>&1
 fi

@@ -25,7 +25,6 @@ Welcome to the New Mexico Geochronology Research Laboratory!
    software_layout
    bibliographies
    computer_names
-   backup
    lab_meetings/index
 
 
