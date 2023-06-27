@@ -1,0 +1,16 @@
+{
+    "__traits_version__": "5.1.1",
+    "analysis_label_display": "",
+    "analysis_label_format": "",
+    "auto_generate_title": true,
+    "aux_plots": [
+        [
+            "<class 'pychron.options.spectrum.SpectrumAuxPlot'>",
+            {
+                "__traits_version__": "5.1.1",
+                "filter_str": "",
+                "filter_str_tag": "Omit",
+                "has_filter": 0,
+                "height": 200,
+                "marker": "circle",
+                "marker_color": 
